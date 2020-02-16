@@ -39,7 +39,7 @@
          "context_set": ""
         },
         {"tag": "symptoms",
-         "patterns": ["what are the symptoms of coronavirus", "am i infected", "how do i know i am infected"],
+         "patterns": ["what are the symptoms of coronavirus", "am i infected", "how do i know i am infected", "symptoms"],
          "responses": ["Coronavirus can cause mild symptoms including a runny nose, sore throat, cough, and fever. It can lead to pneumonia or breathing difficulties"],
          "context_set": ""
         },
@@ -80,7 +80,7 @@
        },
 
        {"tag": "confirmed",
-         "patterns": ["how many infected cases", "how many people got corona", "confirmed cases"],
+         "patterns": ["how many infected cases", "how many people got corona", "confirmed cases", "affected"],
          "responses": ["At this moment, there are 68,407 people got infected with COVID-19 (updated Feb 15th, 2020)"],
          "context_set": ""
        },
@@ -98,7 +98,7 @@
        },
 
       {"tag": "topfive",
-         "patterns": ["top 5 infected countries", "show me top 5 countries with coronavirus", "top 5", "top", "where country"],
+         "patterns": ["top 5 infected countries", "show me top 5 countries with coronavirus", "top 5", "top", "where country", "countries"],
          "responses": ["1. Mainland China \n 2. Singapore \n 3. Hong Kong \n 4. Japan \n 5. Thailand "],
          "context_set": ""
        }, 
