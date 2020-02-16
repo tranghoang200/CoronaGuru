@@ -5,6 +5,8 @@ Slide: https://my.visme.co/projects/010kw463-coronaguru#s1
 
 **This is the first AI ChatBot about Corona Virus (COVID-19)**
 
+![](gifdemo.gif)
+
 **Inperation:** \
 We made Corona virus for everyone to have update about the situation of the Corona virus without taking much time to go through lots of website. \
 The website has two main features: ChatBot and Live Update.
