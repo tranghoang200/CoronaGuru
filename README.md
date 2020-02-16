@@ -1,6 +1,7 @@
 # CoronaGuru
-Website: www.coronaguru.tech
-Slide: 
+Website: www.coronaguru.tech 
+
+Slide: https://my.visme.co/projects/010kw463-coronaguru#s1 
 
 **This is the first AI ChatBot about Corona Virus (COVID-19)**
 
