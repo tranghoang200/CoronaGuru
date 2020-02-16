@@ -6,7 +6,7 @@
         },
 
         {"tag": "nickname",
-           "patterns": ["how can i call you", "your name"],
+           "patterns": ["how can i call you", "your name", "your nickname"],
            "responses": ["Great question. You can me CoronaGuru. Glad to answer all of your questions about Coronavirus"],
            "context_set": ""
         },
