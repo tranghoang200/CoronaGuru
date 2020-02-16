@@ -29,7 +29,7 @@
            "context_set": ""
         },
         {"tag": "sars",
-           "patterns": ["the new virus the same as SARS", "what is the difference between coronavirus and SARS", "is this SARS"],
+           "patterns": ["the new virus the same as SARS", "the difference between coronavirus and SARS", "is this SARS"],
            "responses": ["No, COVID-19 is from the same family of viruses as Sever Acute Respiratory Syndrome (SARS-CoV) but it is not the same virus"],
            "context_set": ""
         },
@@ -50,7 +50,7 @@
         },
 
         {"tag": "pet",
-         "patterns": ["catch COVID-19 from my pet", "catch coronavirus from my pet"],
+         "patterns": ["catch COVID-19 from my pet", "catch coronavirus from my pet", "cat", "dog"],
          "responses": ["No, at present there is no evidence that companion animals or pets such as cats and dogs have been infected or have spread COVID-19."],
          "context_set": ""
         },
@@ -104,8 +104,8 @@
        }, 
 
        {"tag": "top",
-        "patterns": ["country most infected", "top 1 countries with confirmed cases", "where does country have the most corona infected people"],
-        "responses": ["1. Mainland China"],
+        "patterns": ["country first found", "country most infected", "top 1 countries with confirmed cases", "where does country have the most corona infected people"],
+        "responses": ["Mainland China"],
         "context_set": ""
       }, 
 
