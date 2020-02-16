@@ -1,0 +1,118 @@
+{"intents": [
+        {"tag": "hello",
+           "patterns": ["hello", "good morning", "good day","hello corona guru", "good afternoon", "good evening", "hi there"],
+           "responses": ["Hello there! Welcome to Corona Guru. How can I help you?"],
+           "context_set": ""
+        },
+
+        {"tag": "nickname",
+           "patterns": ["how can i call you", "what is your name"],
+           "responses": ["Glad you asked. I can help you answer all of your concerns about coronavirus"],
+           "context_set": ""
+        },
+
+        {"tag": "task",
+          "patterns": ["what can you do", "tell me about your task", "tell me about you"],
+          "responses": ["Great question. You can me CoronaGuru. Glad to answer all of your questions about Coronavirus"],
+          "context_set": ""
+        },
+
+        {"tag": "othername",
+          "patterns": ["other name of coronavirus", "does coronavirus have another name", "name"],
+          "responses": ["Due to WHO, the new name of coronavirus is COVID-19"],
+          "context_set": ""
+        },
+
+        {"tag": "intro",
+           "patterns": ["what is coronavirus", "corona", "what is corona virus", "definition", "can you tell me about coronavirus", "tell me ","what is the new virus", "can you tell me about the new virus", "conronavirus"],
+           "responses": ["Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV). A novel coronavirus (nCoV) is a new strain that has not been previously identified in humans. "],
+           "context_set": ""
+        },
+        {"tag": "sars",
+           "patterns": ["is the new virus the same as SARS", "what is the difference between coronavirus and SARS", "is this SARS"],
+           "responses": ["No, COVID-19 is from the same family of viruses as Sever Acute Respiratory Syndrome (SARS-CoV) but it is not the same virus"],
+           "context_set": ""
+        },
+        {"tag": "danger",
+         "patterns": ["how dangerous is it", "how dangerous is coronavirus", "is coronavirus dangerous", "how dangerous"],
+         "responses": ["As with other respiratory illnesses, infection with COVID-19 can cause mild symptoms including a runny nose, sore throat, cough, and fever.  It can be more severe for some persons and can lead to pneumonia or breathing difficulties.  More rarely, the disease can be fatal. Older people, and people with pre-existing medical conditions (such as, diabetes and heart disease) appear to be more vulnerable to becoming severely ill with the virus."],
+         "context_set": ""
+        },
+        {"tag": "symptoms",
+         "patterns": ["what are the symptoms of coronavirus", "am i infected", "how do i know i am infected"],
+         "responses": ["Coronavirus can cause mild symptoms including a runny nose, sore throat, cough, and fever. It can lead to pneumonia or breathing difficulties"],
+         "context_set": ""
+        },
+        {"tag": "animal",
+         "patterns": ["can i be infected from animal", "can humans become infected with coronavirus from an animal source"],
+         "responses": ["Detailed investigations found that SARS-CoV was transmitted from civet cats to humans in China in 2002 and MERS-CoV from dromedary camels to humans in Saudi Arabia in 2012. Several known coronaviruses are circulating in animals that have not yet infected humans.  As surveillance improves around the world, more coronaviruses are likely to be identified. The animal source of the COVID-19 has not yet been identified.  This does not mean you can catch COVID-19 from any animal or from your pet. It’s likely that an animal source from a live animal market in China was responsible for some of the first reported human infections. To protect yourself, when visiting live animal markets, avoid direct unprotected contact with live animals and surfaces in contact with animals. The consumption of raw or undercooked animal products should be avoided. Raw meat, milk or animal organs should be handled with care, to avoid cross-contamination with uncooked foods, as per good food safety practices."],
+         "context_set": ""
+        },
+
+        {"tag": "pet",
+         "patterns": ["can i catch COVID-19 from my pet", "can i catch coronavirus from my pet"],
+         "responses": ["No, at present there is no evidence that companion animals or pets such as cats and dogs have been infected or have spread COVID-19."],
+         "context_set": ""
+        },
+
+        {"tag": "protect",
+         "patterns": ["how can i protect myself from coronavirus", "what can i do to protect myself"],
+         "responses": ["1. Wash your hands frequently  \n 2. Practice respiratory hygiene  \n 3. Maintain social distancing \n 4. Avoid touching eyes, nose and mouth \n 5. If you have fever, cough and difficulty breathing, seek medical care early  5. As a general precaution, practice general hygiene measures when visiting live animal markets, wet markets or animal product markets \n 6. Avoid consumption of raw or undercooked animal products"],
+         "context_set": ""
+        },
+
+        {"tag": "mask",
+          "patterns": ["should i wear a mask", "should i wear a mask to protect myself from coronavirus"],
+          "responses": ["Wearing a medical mask can help limit the spread of some respiratory disease. However, using a mask alone is not guaranteed to stop infections and should be combined with other prevention measures including hand and respiratory hygiene and avoiding close contact – at least 1 metre (3 feet) distance between yourself and other people.\n\nWHO advises on rational use of medical masks thus avoiding unnecessary wastage of precious resources and potential misuse of masks (see Advice on the use of masks). This means using masks only if you have respiratory symptoms (coughing or sneezing), have suspected 2019-nCoV infection with mild symptoms or are caring for someone with suspected 2019-nCoV infection. A suspected 2019-nCoV infection is linked to travel in an area in China where 2019-nCoV has been reported, or close contact with someone who has traveled from China and has respiratory symptoms"],
+          "context_set": ""
+        },
+
+       {"tag": "target",
+         "patterns": ["who can catch this virus", "who will be infected", "target patients"],
+         "responses": ["The new coronavirus is a respiratory virus which spreads primarily through contact with an infected person through respiratory droplets generated when a person, for example, coughs or sneezes, or through droplets of saliva or discharge from the nose. It is important that everyone practice good respiratory hygiene. For example, sneeze or cough into a flexed elbow, or use a tissue and discard it immediately into a closed bin.  It is also very important for people to wash their hands regularly with either alcohol-based hand rub or soap and water."],
+         "context_set": ""
+       },
+
+      {"tag": "treatment",
+         "patterns": ["treatment", "medicine", "are there any specific medicines to prevent or treat coronavirus", "are there any medicines yet", "COVID-19 treatment"],
+         "responses": ["To date, there is no specific medicine recommended to prevent or treat the novel coronavirus. However, those infected with 2019-nCoV should receive appropriate care to relieve and treat symptoms, and those with severe illness should receive optimized supportive care. Some specific treatments are under investigation and will be tested through clinical trials.  WHO is helping to coordinate efforts to develop medicines to treat nCoV with a range of partners."],
+         "context_set": ""
+       },
+
+       {"tag": "confirmed",
+         "patterns": ["how many infected cases", "how many people got corona", "confirmed cases"],
+         "responses": ["At this moment, there are 68,407 people got infected with COVID-19 (updated Feb 15th, 2020)"],
+         "context_set": ""
+       },
+
+      {"tag": "deaths",
+         "patterns": ["how many death cases","how many people die", "how many people died from coronavirus", "deaths case", "number of deaths", "died from corona"],
+         "responses": ["At this moment, there are 1,666 people died from COVID-19 (updated Feb 15th, 2020)"],
+         "context_set": ""
+       },
+
+       {"tag": "recovered",
+         "patterns": ["how many recovered cases", "survive", "how many people survive" ,"how many people recovered from coronavirus", "recovered case"],
+         "responses": ["At this moment, there are 9,420 people recovered from COVID-19 (updated Feb 15th, 2020)"],
+         "context_set": ""
+       },
+
+      {"tag": "topfive",
+         "patterns": ["top 5 infected countries", "show me top 5 countries with coronavirus", "top 5", "top", "where country"],
+         "responses": ["1. Mainland China \n 2. Singapore \n 3. Hong Kong \n 4. Japan \n 5. Thailand "],
+         "context_set": ""
+       }, 
+
+       {"tag": "top",
+        "patterns": ["country most infected", "top 1 countries with confirmed cases", "where is the most corona infected"],
+        "responses": ["1. Mainland China"],
+        "context_set": ""
+      }, 
+
+      {"tag": "goodbye",
+        "patterns": ["Thank you. That's all I need", "thank you", "goodbye", "see you later", "thanks", "bye", "i have to go now", "see you again", "thanks for your help"],
+        "responses": ["Thank you for stopping by. Let me know if you have more questions about COVID-19", "See you again soon. Have a good day"],
+        "context_set": ""
+      }
+  ]
+}
