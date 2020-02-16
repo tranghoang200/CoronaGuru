@@ -80,13 +80,13 @@
        },
 
        {"tag": "confirmed",
-         "patterns": ["how many infected cases", "how many people got corona", "confirmed cases", "people found"],
+         "patterns": ["how many infected cases", "people got corona", "confirmed cases", "people found"],
          "responses": ["At this moment, there are 68,407 people got infected with COVID-19 (updated Feb 15th, 2020)"],
          "context_set": ""
        },
 
       {"tag": "deaths",
-         "patterns": ["how many death cases","how many people die", "how many people died from coronavirus", "deaths case", "number of deaths", "died from corona"],
+         "patterns": ["death cases","people die", "died from coronavirus", "deaths case", "number of deaths", "died from corona"],
          "responses": ["At this moment, there are 1,666 people died from COVID-19 (updated Feb 15th, 2020)"],
          "context_set": ""
        },
