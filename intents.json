@@ -7,13 +7,13 @@
 
         {"tag": "nickname",
            "patterns": ["how can i call you", "what is your name"],
-           "responses": ["Glad you asked. I can help you answer all of your concerns about coronavirus"],
+           "responses": ["Great question. You can me CoronaGuru. Glad to answer all of your questions about Coronavirus"],
            "context_set": ""
         },
 
         {"tag": "task",
           "patterns": ["what can you do", "tell me about your task", "tell me about you"],
-          "responses": ["Great question. You can me CoronaGuru. Glad to answer all of your questions about Coronavirus"],
+          "responses": ["Glad you asked. I can help you answer all of your concerns about coronavirus"],
           "context_set": ""
         },
 
@@ -39,7 +39,7 @@
          "context_set": ""
         },
         {"tag": "symptoms",
-         "patterns": ["what are the symptoms of coronavirus", "am i infected", "how do i know i am infected", "symptoms"],
+         "patterns": ["what are the symptoms of coronavirus", "am i infected", "how do i know i am infected"],
          "responses": ["Coronavirus can cause mild symptoms including a runny nose, sore throat, cough, and fever. It can lead to pneumonia or breathing difficulties"],
          "context_set": ""
         },
@@ -80,7 +80,7 @@
        },
 
        {"tag": "confirmed",
-         "patterns": ["how many infected cases", "how many people got corona", "confirmed cases", "affected"],
+         "patterns": ["how many infected cases", "how many people got corona", "confirmed cases", "people found"],
          "responses": ["At this moment, there are 68,407 people got infected with COVID-19 (updated Feb 15th, 2020)"],
          "context_set": ""
        },
@@ -98,13 +98,13 @@
        },
 
       {"tag": "topfive",
-         "patterns": ["top 5 infected countries", "show me top 5 countries with coronavirus", "top 5", "top", "where country", "countries"],
+         "patterns": ["top 5 infected countries", "show me top 5 countries with coronavirus", "top 5", "top", "where country"],
          "responses": ["1. Mainland China \n 2. Singapore \n 3. Hong Kong \n 4. Japan \n 5. Thailand "],
          "context_set": ""
        }, 
 
        {"tag": "top",
-        "patterns": ["country most infected", "top 1 countries with confirmed cases", "where is the most corona infected"],
+        "patterns": ["country most infected", "top 1 countries with confirmed cases", "where does country have the most corona infected people"],
         "responses": ["1. Mainland China"],
         "context_set": ""
       }, 
