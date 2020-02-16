@@ -1,0 +1,48 @@
+body {
+  background-color: #11C6D2;
+}
+
+.main {
+  margin-top: 12%;
+  height: 500px;
+}
+
+a {
+  display: inline-block;
+}
+.btn {
+  width: 350px;
+  height: 250px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.chat {
+  background-color: #F0FFF3;
+  box-shadow: 25px 25px #C6F1E7 ;
+}
+
+.chat:hover {
+  color: rgb(11, 234, 15);
+}
+
+.update {
+  color: #FFFFFF;
+  background-color: rgb(0, 168, 204);
+  box-shadow: 25px 25px #0C7B93 ;
+}
+
+.about {
+  color: #FFFFFF;
+  background-color: rgb(163, 147, 235);
+  box-shadow: 25px 25px #5E63B6;
+}
+
+@media only screen and (max-width: 800px) {
+.row {
+  margin: 22%;
+}
+.col {
+  margin-bottom: 10%;
+}
+}

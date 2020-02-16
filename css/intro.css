@@ -20,6 +20,10 @@ h1 {
   font-size: 60px;
 }
 
-h4 {
+h2 {
   margin-top: 50px;
+}
+
+span {
+  color: yellow;
 }
